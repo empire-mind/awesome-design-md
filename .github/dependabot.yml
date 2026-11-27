@@ -1,0 +1,10 @@
+# Dependabot configuration - EmpireMind estate baseline
+# Added by HERMES x GITHUB drive Lane E, 2026-11-26 (PR, unmerged - Eli merges).
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 10
